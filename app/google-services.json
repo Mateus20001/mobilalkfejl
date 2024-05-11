@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "336720227393",
+    "project_id": "allaskereso-914de",
+    "storage_bucket": "allaskereso-914de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336720227393:android:253e7756605fa64988aac0",
+        "android_client_info": {
+          "package_name": "com.example.allaskereso"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336720227393-2gm67rjma53uhk1742j2uaq4vu7fs05m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "edd352778a463be33d5b32b7d400089df33abbeb"
+          }
+        },
+        {
+          "client_id": "336720227393-tkjitujatjrppv8cm9abga0pocr6l3fv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLnHYgdjvkx5flUiDLGzioISZ-4JOfFvQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "336720227393-tkjitujatjrppv8cm9abga0pocr6l3fv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

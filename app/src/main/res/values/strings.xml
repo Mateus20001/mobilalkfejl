@@ -1,0 +1,54 @@
+<resources>
+    <array name="allaskepek">
+        <item>@drawable/pincer</item>
+        <item>@drawable/programozo</item>
+        <item>@drawable/takarito</item>
+        <item>@drawable/kozgazdasz</item>
+    </array>
+    <array name="allasleirasok">
+        <item>@string/pincerleiras</item>
+        <item>@string/programozoleiras</item>
+        <item>@string/takaritoleiras</item>
+        <item>@string/kozgazdaszleiras</item>
+    </array>
+    <string name="pincerleiras">A pincér egy olyan szakma, amely az éttermekben, kávézókban, bárokban és más vendéglátóipari egységekben dolgozik. Feladata az étel és ital szervírozása, az ügyfelek kiszolgálása és az étterem megfelelő működésének biztosítása. A pincér fontos szerepet tölt be az éttermi élményben, hiszen ő az, aki közvetlen kapcsolatban van az ügyfelekkel, és hozzájárul az éttermi légkör kialakításához és fenntartásához.</string>
+    <string name="programozoleiras">Programozók olyan szakemberek, akik számítógépes programokat írnak és fejlesztenek. Ők olyan emberek, akik rendelkeznek számítógépes programozási nyelvek, technológiák és eszközök ismeretével, és képesek alkalmazni ezeket az ismereteket különböző projektek megvalósítására.</string>
+    <string name="takaritoleiras">ss</string>
+    <string name="kozgazdaszleiras">A közgazdászok olyan szakemberek, akik a gazdaság és az abból fakadó jelenségek tanulmányozásával foglalkoznak. Ők elemzik a gazdasági folyamatokat, modelleket és trendeket, és tanácsokat adnak gazdasági döntésekre az egyéneknek, vállalatoknak, kormányzatoknak és más szervezeteknek.</string>
+
+    <array name="szakmanevek">
+        <item>@string/pincér</item>
+        <item>@string/programozó</item>
+        <item>@string/takarító</item>
+        <item>@string/közgazdász</item>
+    </array>
+    <string name="pincér">Pincér</string>
+    <string name="programozó">Programozó</string>
+    <string name="takarító">Takarító</string>
+    <string name="közgazdász">Közgazdász</string>
+
+    <string name="app_name">Álláskereső</string>
+    <string name="bejelentkezés">Bejelentkezés</string>
+    <string name="jelszó">Jelszó:</string>
+    <string name="email_cím">Email cím:</string>
+    <string name="regisztráció">Regisztráció</string>
+    <string name="felhasználónév">Felhasználónév</string>
+    <string name="jelszómegerősítése">Jelszó megerősítése</string>
+    <string name="mégse">Mégse</string>
+
+    <string name="jelentkezek">Jelentkezek!</string>
+
+    <string name="googlefiok">Bejelentkezés Google Fiókkal</string>
+    <string name="vendég">Bejelentkezés vendégként</string>
+    <string name="settings">Settings</string>
+    <string name="profile">Profile</string>
+    <string name="search">Search</string>
+    <string name="kijelentkez_s">Kijelentkezés</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+</resources>

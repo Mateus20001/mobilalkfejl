@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AllasActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RecycleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="55dp" />
+    <!--<ImageView
+        android:id="@+id/pincerimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/pincér"
+        android:src="@drawable/pincer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="-64dp" />
+
+    <TextView
+        android:id="@+id/pincerleiras"
+        android:layout_width="361dp"
+        android:layout_height="177dp"
+        android:layout_marginTop="360dp"
+        android:text="@string/pincerleiras"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pincernev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="324dp"
+        android:text="@string/pincér"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:id="@+id/pincerjelentkezek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="496dp"
+        android:text="@string/jelentkezek"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="pincerjelentkezek"
+        />
+
+    <ImageView
+        android:id="@+id/programozoimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="136dp"
+        android:contentDescription="@string/programozó"
+        android:src="@drawable/programozo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pincerimg"
+        tools:ignore="MissingConstraints"
+        />
+
+    <TextView
+        android:id="@+id/programozoleiras"
+        android:layout_width="361dp"
+        android:layout_height="177dp"
+        android:layout_marginTop="408dp"
+        android:text="@string/programozoleiras"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pincerleiras"/>
+
+    <TextView
+        android:id="@+id/programozonev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="564dp"
+        android:text="@string/programozó"
+        app:layout_constraintTop_toBottomOf="@+id/pincernev"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:id="@+id/programozojelentkezek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="524dp"
+        android:text="@string/jelentkezek"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pincerleiras" />
+
+    <ImageView
+        android:id="@+id/kozgazdaszimg"
+        android:layout_width="wrap_content"
+        android:layout_height="381dp"
+        android:layout_marginTop="152dp"
+        android:contentDescription="@string/közgazdász"
+        android:src="@drawable/kozgazdasz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/programozoimg"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/kozgazdaszleiras"
+        android:layout_width="361dp"
+        android:layout_height="177dp"
+        android:layout_marginTop="352dp"
+        android:text="@string/kozgazdaszleiras"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/programozoleiras" />
+
+    <TextView
+        android:id="@+id/kozgazdasznev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="512dp"
+        android:text="@string/közgazdász"
+        app:layout_constraintTop_toBottomOf="@+id/programozonev"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:id="@+id/kozgazdaszjelentkezek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1592dp"
+        android:text="@string/jelentkezek"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" /> -->
+
+</RelativeLayout>
